@@ -1,0 +1,187 @@
+{
+  "list": [
+    {
+      "id": "glasshorizon",
+      "position": [
+        -16.74517375730838,
+        -13.86039994476494,
+        501.17408045448354
+      ],
+      "frame": {
+        "fps": 0.3159957024584372,
+        "calls": 260,
+        "tris": 3541342
+      }
+    },
+    {
+      "id": "roseglass",
+      "position": [
+        -504.3749831702682,
+        -11.047073718407628,
+        418.9783965645469
+      ],
+      "frame": {
+        "fps": 0.4915212582944212,
+        "calls": 376,
+        "tris": 5363726
+      }
+    },
+    {
+      "id": "verdant",
+      "position": [
+        493.01029848870894,
+        -14.946311944127157,
+        163.0745707199182
+      ],
+      "frame": {
+        "fps": 0.06083206092939154,
+        "calls": 284,
+        "tris": 3211675
+      }
+    },
+    {
+      "id": "aurel",
+      "position": [
+        124.9220525331001,
+        -95.50305489117856,
+        36.44630021972651
+      ],
+      "frame": {
+        "fps": 0.06866764174717992,
+        "calls": 207,
+        "tris": 1665353
+      }
+    },
+    {
+      "id": "azurespan",
+      "position": [
+        -610.5639169762649,
+        -167.55015438326888,
+        -432.4827745248542
+      ],
+      "frame": {
+        "fps": 0.15845098318834835,
+        "calls": 250,
+        "tris": 1991918
+      }
+    },
+    {
+      "id": "floodednave",
+      "position": [
+        402.6158790258207,
+        -83.77394282270991,
+        -289.8834328985909
+      ],
+      "frame": {
+        "fps": 0.2475370067825183,
+        "calls": 122,
+        "tris": 620497
+      }
+    },
+    {
+      "id": "abyssalbowl",
+      "position": [
+        -120.31299360829375,
+        -576.8494364286729,
+        -638.7645236075471
+      ],
+      "frame": {
+        "fps": 0.18484288354898337,
+        "calls": 122,
+        "tris": 815123
+      }
+    }
+  ],
+  "errors": [
+    "THREE.WebGLProgram: Shader Error 0 - VALIDATE_STATUS false\n\nMaterial Name: \nMaterial Type: ShaderMaterial\n\nProgram Info Log: Fragment shader is not compiled.\n\u0000\n\nFRAGMENT\n\nERROR: 0:447: 'flat' : syntax error\n\u0000\n\n  442:   vec3 N = normalize(vNrm);\n  443:   float detailH;\n  444:   float dist = length(uCamPos - vWorld);\n  445:   float nearF = 1.0 - smoothstep(30.0, 220.0, dist);\n  446:   float shallow=1.0-smoothstep(50.0,115.0,-vWorld.y);\n> 447:   float flat=smoothstep(.50,.92,N.y);\n  448:   float reef=1.0-smoothstep(130.0,310.0,length(vWorld.xz-vec2(-520.0,300.0)));\n  449:   float mapWeight=nearF*shallow*flat*uGroundMapsReady;\n  450:   vec2 groundUv=vWorld.xz*.50;\n  451:   vec3 groundColor=vec3(.55);\n  452:   vec3 groundNormal=vec3(.5,.5,1.0);\n  453:   float groundRough=.7;"
+  ],
+  "warnings": [
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid",
+    "WebGL: INVALID_OPERATION: useProgram: program not valid"
+  ]
+}

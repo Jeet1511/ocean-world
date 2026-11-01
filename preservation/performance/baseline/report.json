@@ -1,0 +1,638 @@
+{
+  "bootMs": 6252,
+  "samples": [
+    {
+      "id": "glasshorizon",
+      "quality": "low",
+      "frame": {
+        "fps": 0,
+        "calls": 0,
+        "tris": 0,
+        "caveScattering": false
+      },
+      "inventory": {
+        "bySystem": {
+          "seabed": 315000,
+          "distant_seabed": 10800,
+          "sky": 2976,
+          "ocean": 45000,
+          "geology": 1165648,
+          "shallow_photogrammetry_shells": 124980,
+          "caverns": 20548,
+          "portals": 7728,
+          "flora": 1197286,
+          "real_coral_scans": 143850,
+          "atmosphere": 1644873,
+          "procedural_jellyfish": 44800,
+          "shallow_coastal_barramundi": 19320,
+          "large_marine_visitors": 55422,
+          "textured_reef_shoals": 35728,
+          "sea_turtle_visitors": 18192,
+          "blue_whale_visitor": 2394
+        },
+        "largest": [
+          {
+            "name": "fish_school",
+            "system": "atmosphere",
+            "triangles": 168960
+          },
+          {
+            "name": "fish_school",
+            "system": "atmosphere",
+            "triangles": 168960
+          },
+          {
+            "name": "fish_school",
+            "system": "atmosphere",
+            "triangles": 156420
+          },
+          {
+            "name": "fish_school",
+            "system": "atmosphere",
+            "triangles": 156420
+          },
+          {
+            "name": "fish_school",
+            "system": "atmosphere",
+            "triangles": 156420
+          },
+          {
+            "name": "coral_scan_deep_abyssalbowl",
+            "system": "real_coral_scans",
+            "triangles": 143850
+          },
+          {
+            "name": "geology_reef_-1_0",
+            "system": "geology",
+            "triangles": 74448
+          },
+          {
+            "name": "fish_school_ecosystem",
+            "system": "atmosphere",
+            "triangles": 69520
+          },
+          {
+            "name": "fish_school_ecosystem",
+            "system": "atmosphere",
+            "triangles": 69520
+          },
+          {
+            "name": "shell_tile_0_6",
+            "system": "shallow_photogrammetry_shells",
+            "triangles": 62490
+          },
+          {
+            "name": "shell_tile_-1_6",
+            "system": "shallow_photogrammetry_shells",
+            "triangles": 62490
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 60320
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 57840
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 57360
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 57280
+          }
+        ],
+        "memory": {
+          "geometries": 0,
+          "textures": 0
+        }
+      },
+      "camera": [
+        -16.745173757308383,
+        -13.86039994476494,
+        501.17408045448354
+      ]
+    },
+    {
+      "id": "roseglass",
+      "quality": "low",
+      "frame": {
+        "fps": 0.869111767773617,
+        "calls": 382,
+        "tris": 3757038,
+        "caveScattering": false
+      },
+      "inventory": {
+        "bySystem": {
+          "seabed": 247500,
+          "distant_seabed": 10800,
+          "sky": 2976,
+          "ocean": 45000,
+          "geology": 892984,
+          "shallow_photogrammetry_shells": 99984,
+          "portals": 2208,
+          "flora": 1635950,
+          "real_coral_scans": 314070,
+          "atmosphere": 353388,
+          "benthic_habitats": 57992,
+          "procedural_jellyfish": 44800,
+          "shallow_coastal_barramundi": 19320,
+          "large_marine_visitors": 3104,
+          "textured_reef_shoals": 17864,
+          "sea_turtle_visitors": 9096
+        },
+        "largest": [
+          {
+            "name": "fish_school",
+            "system": "atmosphere",
+            "triangles": 168960
+          },
+          {
+            "name": "coral_scan_branching_roseglass",
+            "system": "real_coral_scans",
+            "triangles": 88128
+          },
+          {
+            "name": "shell_tile_-7_4",
+            "system": "shallow_photogrammetry_shells",
+            "triangles": 87486
+          },
+          {
+            "name": "geology_reef_-1_0",
+            "system": "geology",
+            "triangles": 74448
+          },
+          {
+            "name": "coral_scan_table_roseglass",
+            "system": "real_coral_scans",
+            "triangles": 72560
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 60320
+          },
+          {
+            "name": "coral_scan_foliose_roseglass",
+            "system": "real_coral_scans",
+            "triangles": 60000
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 57840
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 57360
+          },
+          {
+            "name": "rubble_-1_0",
+            "system": "geology",
+            "triangles": 57280
+          },
+          {
+            "name": "coral_branching_violet_1_-3_1",
+            "system": "flora",
+            "triangles": 54648
+          },
+          {
+            "name": "coral_scan_staghorn_roseglass",
+            "system": "real_coral_scans",
+            "triangles": 50882
+          }
+        ],
+        "memory": {
+          "geometries": 153,
+          "textures": 86
+        }
+      },
+      "camera": [
+        -476.61335730520716,
+        -18.494134139234607,
+        415.3325593042762
+      ]
+    },
+    {
+      "id": "verdant",
+      "quality": "low",
+      "frame": {
+        "fps": 0.07534375588623092,
+        "calls": 288,
+        "tris": 2173150,
+        "caveScattering": false
+      },
+      "inventory": {
+        "bySystem": {
+          "seabed": 101250,
+          "distant_seabed": 10800,
+          "sky": 2976,
+          "ocean": 45000,
+          "geology": 374380,
+          "flora": 1408950,
+          "atmosphere": 125344,
+          "benthic_habitats": 37224,
+          "procedural_jellyfish": 44800,
+          "shallow_coastal_barramundi": 19320,
+          "large_marine_visitors": 3104
+        },
+        "largest": [
+          {
+            "name": "kelp_0_0_2_1",
+            "system": "flora",
+            "triangles": 127350
+          },
+          {
+            "name": "kelp_0_1_2_1",
+            "system": "flora",
+            "triangles": 122256
+          },
+          {
+            "name": "kelp_0_2_2_1",
+            "system": "flora",
+            "triangles": 115464
+          },
+          {
+            "name": "kelp_0_1_2_0",
+            "system": "flora",
+            "triangles": 50374
+          }
+        ],
+        "memory": {
+          "geometries": 177,
+          "textures": 91
+        }
+      },
+      "camera": [
+        493.01029848870894,
+        -14.946311944127157,
+        163.0745707199182
+      ]
+    },
+    {
+      "id": "roseglass",
+      "quality": "high",
+      "frame": {
+        "fps": 0.5895125713556165,
+        "calls": 508,
+        "tris": 12962189,
+        "caveScattering": false
+      },
+      "inventory": {
+        "bySystem": {
+          "seabed": 247500,
+          "distant_seabed": 10800,
+          "sky": 2976,
+          "ocean": 45000,
+          "geology": 892984,
+          "shallow_photogrammetry_shells": 187470,
+          "portals": 2208,
+          "flora": 10753602,
+          "real_coral_scans": 314070,
+          "atmosphere": 353388,
+          "benthic_habitats": 57992,
+          "procedural_jellyfish": 44800,
+          "shallow_coastal_barramundi": 19320,
+          "large_marine_visitors": 3104,
+          "textured_reef_shoals": 17864,
+          "sea_turtle_visitors": 9096
+        },
+        "largest": [
+          {
+            "name": "coral_branching_violet_0_-3_1",
+            "system": "flora",
+            "triangles": 595560
+          },
+          {
+            "name": "coral_branching_rose_0_-3_1",
+            "system": "flora",
+            "triangles": 496300
+          },
+          {
+            "name": "coral_branching_violet_1_-3_1",
+            "system": "flora",
+            "triangles": 454916
+          },
+          {
+            "name": "coral_branching_teal_0_-3_1",
+            "system": "flora",
+            "triangles": 419728
+          },
+          {
+            "name": "coral_branching_amber_0_-3_1",
+            "system": "flora",
+            "triangles": 416892
+          },
+          {
+            "name": "coral_branching_violet_2_-3_1",
+            "system": "flora",
+            "triangles": 385704
+          },
+          {
+            "name": "coral_branching_rose_1_-3_1",
+            "system": "flora",
+            "triangles": 370832
+          },
+          {
+            "name": "coral_branching_teal_1_-3_1",
+            "system": "flora",
+            "triangles": 355740
+          },
+          {
+            "name": "coral_branching_rose_2_-3_1",
+            "system": "flora",
+            "triangles": 305836
+          },
+          {
+            "name": "coral_branching_teal_2_-3_1",
+            "system": "flora",
+            "triangles": 301940
+          },
+          {
+            "name": "coral_branching_amber_0_-2_1",
+            "system": "flora",
+            "triangles": 272256
+          },
+          {
+            "name": "coral_branching_amber_2_-3_1",
+            "system": "flora",
+            "triangles": 264928
+          },
+          {
+            "name": "coral_branching_amber_1_-3_1",
+            "system": "flora",
+            "triangles": 260876
+          },
+          {
+            "name": "coral_branching_teal_0_-2_1",
+            "system": "flora",
+            "triangles": 212700
+          },
+          {
+            "name": "coral_branching_violet_0_-2_1",
+            "system": "flora",
+            "triangles": 207028
+          }
+        ],
+        "memory": {
+          "geometries": 181,
+          "textures": 102
+        }
+      },
+      "camera": [
+        -476.61335730520716,
+        -18.494134139234607,
+        415.3325593042762
+      ]
+    }
+  ],
+  "sim": {
+    "groups": 70,
+    "fish": 2303,
+    "timesMs": [
+      39.59999999962747,
+      30.40000000037253,
+      20.899999999441206,
+      14.900000000372529,
+      26.40000000037253
+    ]
+  },
+  "resources": [
+    {
+      "name": "textures/sand_02/diff.jpg",
+      "encoded": 981243,
+      "transfer": 981543,
+      "duration": 66.70000000018626
+    },
+    {
+      "name": "textures/sand_02/nor_gl.jpg",
+      "encoded": 1110354,
+      "transfer": 1110654,
+      "duration": 69.69999999925494
+    },
+    {
+      "name": "textures/sand_02/rough.jpg",
+      "encoded": 396186,
+      "transfer": 396486,
+      "duration": 43.700000000186265
+    },
+    {
+      "name": "textures/coral_ground_02/diff.jpg",
+      "encoded": 743145,
+      "transfer": 743445,
+      "duration": 65.20000000018626
+    },
+    {
+      "name": "textures/coral_ground_02/nor_gl.jpg",
+      "encoded": 1258975,
+      "transfer": 1259275,
+      "duration": 68.3999999994412
+    },
+    {
+      "name": "textures/coral_ground_02/rough.jpg",
+      "encoded": 570709,
+      "transfer": 571009,
+      "duration": 56.40000000037253
+    },
+    {
+      "name": "textures/rock022/Rock022_1K-JPG_Color.jpg",
+      "encoded": 1216353,
+      "transfer": 1216653,
+      "duration": 92.80000000074506
+    },
+    {
+      "name": "textures/rock022/Rock022_1K-JPG_NormalGL.jpg",
+      "encoded": 2231399,
+      "transfer": 2231699,
+      "duration": 1754.4000000003725
+    },
+    {
+      "name": "textures/rock022/Rock022_1K-JPG_Roughness.jpg",
+      "encoded": 604155,
+      "transfer": 604455,
+      "duration": 92.79999999981374
+    },
+    {
+      "name": "models/lambis_shell/lambis_shell_1k.gltf",
+      "encoded": 2772,
+      "transfer": 3072,
+      "duration": 10.900000000372529
+    },
+    {
+      "name": "models/lambis_shell/lambis_shell.bin",
+      "encoded": 310540,
+      "transfer": 310840,
+      "duration": 16.899999999441206
+    },
+    {
+      "name": "models/lambis_shell/textures/lambis_shell_diff_1k.jpg",
+      "encoded": 785669,
+      "transfer": 785969,
+      "duration": 13.599999999627471
+    },
+    {
+      "name": "models/lambis_shell/textures/lambis_shell_arm_1k.jpg",
+      "encoded": 567463,
+      "transfer": 567763,
+      "duration": 9.5
+    },
+    {
+      "name": "models/lambis_shell/textures/lambis_shell_nor_gl_1k.jpg",
+      "encoded": 582208,
+      "transfer": 582508,
+      "duration": 15
+    },
+    {
+      "name": "models/coral_scans/branching.glb",
+      "encoded": 515520,
+      "transfer": 515820,
+      "duration": 28.700000000186265
+    },
+    {
+      "name": "models/coral_scans/boulder.glb",
+      "encoded": 255500,
+      "transfer": 255800,
+      "duration": 19.40000000037253
+    },
+    {
+      "name": "models/coral_scans/foliose.glb",
+      "encoded": 224180,
+      "transfer": 224480,
+      "duration": 20.59999999962747
+    },
+    {
+      "name": "models/coral_scans/staghorn.glb",
+      "encoded": 386804,
+      "transfer": 387104,
+      "duration": 23
+    },
+    {
+      "name": "models/coral_scans/table.glb",
+      "encoded": 1170140,
+      "transfer": 1170440,
+      "duration": 47.700000000186265
+    },
+    {
+      "name": "models/coral_scans/deep.glb",
+      "encoded": 528424,
+      "transfer": 528724,
+      "duration": 46.09999999962747
+    },
+    {
+      "name": "models/barramundi_school/school.glb?rev=09",
+      "encoded": 1308904,
+      "transfer": 1309204,
+      "duration": 23.199999999254942
+    },
+    {
+      "name": "models/marine_pass11/blue-tang.glb",
+      "encoded": 139124,
+      "transfer": 139424,
+      "duration": 45.39999999944121
+    },
+    {
+      "name": "models/marine_pass11/tuna.glb",
+      "encoded": 140396,
+      "transfer": 140696,
+      "duration": 28.299999999813735
+    },
+    {
+      "name": "models/ecosystem/01_clownfish.glb",
+      "encoded": 103472,
+      "transfer": 103772,
+      "duration": 21.09999999962747
+    },
+    {
+      "name": "models/ecosystem/03_lionfish.glb",
+      "encoded": 236012,
+      "transfer": 236312,
+      "duration": 30.200000000186265
+    },
+    {
+      "name": "models/ecosystem/04_anglerfish.glb",
+      "encoded": 115584,
+      "transfer": 115884,
+      "duration": 35.200000000186265
+    },
+    {
+      "name": "models/ecosystem/13_swordfish.glb",
+      "encoded": 118568,
+      "transfer": 118868,
+      "duration": 39.40000000037253
+    },
+    {
+      "name": "models/ecosystem/20_seahorse.glb",
+      "encoded": 160288,
+      "transfer": 160588,
+      "duration": 43.299999999813735
+    },
+    {
+      "name": "models/ecosystem/21_ocean_sunfish.glb",
+      "encoded": 81868,
+      "transfer": 82168,
+      "duration": 42.5
+    },
+    {
+      "name": "models/ecosystem/22_flounder.glb",
+      "encoded": 164512,
+      "transfer": 164812,
+      "duration": 42.40000000037253
+    },
+    {
+      "name": "models/ecosystem/23_mandarinfish.glb",
+      "encoded": 118172,
+      "transfer": 118472,
+      "duration": 44.09999999962747
+    },
+    {
+      "name": "models/ecosystem/sea-star.glb",
+      "encoded": 80996,
+      "transfer": 81296,
+      "duration": 4.5
+    },
+    {
+      "name": "models/barramundi/barramundi_swim.glb",
+      "encoded": 3478380,
+      "transfer": 3478680,
+      "duration": 19.600000000558794
+    },
+    {
+      "name": "models/large_marine/manta.glb",
+      "encoded": 129328,
+      "transfer": 129628,
+      "duration": 5.1000000005587935
+    },
+    {
+      "name": "models/large_marine/shark.glb",
+      "encoded": 433744,
+      "transfer": 434044,
+      "duration": 4
+    },
+    {
+      "name": "models/marine_pass10/tropical-shoal.glb",
+      "encoded": 3869608,
+      "transfer": 3869908,
+      "duration": 20.40000000037253
+    },
+    {
+      "name": "models/sea_turtle/ocean-turtle.glb",
+      "encoded": 1940128,
+      "transfer": 1940428,
+      "duration": 14.700000000186265
+    },
+    {
+      "name": "models/marine_pass12/blue-whale.glb",
+      "encoded": 451448,
+      "transfer": 451748,
+      "duration": 12.5
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

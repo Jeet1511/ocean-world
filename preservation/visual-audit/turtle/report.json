@@ -1,0 +1,134 @@
+{
+  "turtles": [
+    {
+      "habitat": "glasshorizon",
+      "position": [
+        -34.44065634492197,
+        -6.706434282739917,
+        531.1083629398755
+      ],
+      "centre": [
+        -27.119619838179386,
+        -7,
+        527.8830839648189
+      ],
+      "radius": 8,
+      "time": 0,
+      "visible": false,
+      "avoidance": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "habitat": "roseglass",
+      "position": [
+        -472.1290093741186,
+        -13.724852283655538,
+        395.3016091344422
+      ],
+      "centre": [
+        -465.98775621220415,
+        -14,
+        388.7224747231935
+      ],
+      "radius": 9,
+      "time": 0.9641000000000931,
+      "visible": true,
+      "avoidance": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "initial": {
+    "turtle": {
+      "habitat": "roseglass",
+      "position": [
+        -472.13501685018423,
+        -13.72479770496978,
+        395.29599635537363
+      ],
+      "centre": [
+        -465.98775621220415,
+        -14,
+        388.7224747231935
+      ],
+      "radius": 9,
+      "time": 0.9844000000003725,
+      "visible": true,
+      "avoidance": [
+        0,
+        0,
+        0
+      ]
+    },
+    "camera": [
+      -469.63501685018423,
+      -12.62479770496978,
+      398.79599635537363
+    ],
+    "frame": {
+      "fps": 0.24718823384006924,
+      "calls": 381,
+      "tris": 3715418,
+      "caveScattering": false
+    },
+    "inventory": {
+      "seabed": 270000,
+      "distant_seabed": 10800,
+      "sky": 2976,
+      "ocean": 45000,
+      "geology": 929884,
+      "shallow_photogrammetry_shells": 87486,
+      "caverns": 5196,
+      "portals": 2208,
+      "flora": 1604371,
+      "real_coral_scans": 272990,
+      "atmosphere": 353360,
+      "benthic_habitats": 57992,
+      "procedural_jellyfish": 44800,
+      "shallow_coastal_barramundi": 19320,
+      "large_marine_visitors": 3104,
+      "textured_reef_shoals": 17864,
+      "sea_turtle_visitors": 9096
+    }
+  },
+  "up": {
+    "joint": 1,
+    "vertex": [
+      -471.67512438700436,
+      -13.954512070176897,
+      394.319474131929
+    ],
+    "mesh": "game_body",
+    "bones": [
+      "body",
+      "front_L",
+      "front_R",
+      "rear_L",
+      "rear_R"
+    ]
+  },
+  "down": {
+    "joint": 1,
+    "vertex": [
+      -471.93753036041517,
+      -14.277886360592703,
+      394.6067890269155
+    ],
+    "mesh": "game_body",
+    "bones": [
+      "body",
+      "front_L",
+      "front_R",
+      "rear_L",
+      "rear_R"
+    ]
+  },
+  "delta": 0.5059423637774606,
+  "errors": [],
+  "warnings": []
+}

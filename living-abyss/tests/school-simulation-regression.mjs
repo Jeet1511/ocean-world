@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import { TerrainField } from '../src/world/geography.js';
+import { buildGeology } from '../src/world/geology.js';
+import { buildCaverns } from '../src/world/caverns.js';
+import { buildAtmosphere } from '../src/world/atmosphere.js';
+import { SwimController } from '../src/player/controller.js';
+import { SchoolSimulation } from '../src/world/school-simulation.js';
+const field=new TerrainField().build(),controller=new SwimController(field);
+buildGeology(field,controller);buildCaverns(field,controller);
+const atmosphere=buildAtmosphere(field,{quality:'low'},controller.colliders);
+const schools=atmosphere.group.children.filter(o=>o.name==='fish_school');
+assert.equal(schools.length,17);const total=schools.reduce((n,s)=>n+s.count,0);
+let unresolved=schools.reduce((n,s)=>n+s.userData.simulation.unresolvedSpawns,0);
+function check(){for(const s of schools){const sim=s.userData.simulation,p=sim.positions,c=sim.center;
+ for(let i=0;i<p.length;i+=3){const x=c.x+p[i],y=c.y+p[i+1],z=c.z+p[i+2],f=field.surfaceHeightAt(x,z);
+  assert(Number.isFinite(x+y+z),'finite fish positions');
+  assert(y>=f+sim.clearance-1e-4,`${s.userData.habitat}: fish below rendered seabed`);
+  const absCeil=Math.min(sim.center.y+sim.ceiling,-2.0);
+ assert(y<=absCeil+1e-4,`${s.userData.habitat}: fish above surface (${y.toFixed(1)} > ${absCeil.toFixed(1)})`);
+ }
+}}
+check();const before=schools[0].userData.simulation.positions.slice();
+for(let tick=0;tick<80;tick++)for(const s of schools)s.userData.simulation.step(.125,null);
+check();const inCore=schools.reduce((n,s)=>{const sim=s.userData.simulation;for(let i=0;i<sim.positions.length;i+=3)if(sim.inObstacle(i))n++;return n;},0);
+console.log(`INFO: ${inCore} of ${total} fish within 0.5m of or inside a collision core at the final sample; avoidance is approximate.`);assert(schools[0].userData.simulation.positions.some((v,i)=>Math.abs(v-before[i])>.1),'school must actually move');
+const flat={heightAt:()=>-100};
+const a=new SchoolSimulation(flat,{x:0,y:-10,z:0},new Float32Array([0,0,0]),new Float32Array([1]),()=>.5);
+const b=new SchoolSimulation(flat,{x:0,y:-10,z:0},new Float32Array([0,0,0]),new Float32Array([1]),()=>.5);
+a.step(.125,null);b.step(.125,{x:1,y:-10,z:0});assert(b.velocities[0]<a.velocities[0],'nearby player produces avoidance');
+console.log(`PASS: ${schools.length} schools, ${total} fish, 10 simulated seconds above terrain/below surface; player avoidance responds.`);
+console.log(`INFO: ${unresolved} initial fish could not find a point outside analytic rock cores; these are NOT verified clear of geometry or cavern roofs.`);

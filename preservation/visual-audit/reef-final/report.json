@@ -1,0 +1,119 @@
+{
+  "scans": {
+    "counts": {
+      "glasshorizon": 17,
+      "roseglass": 81,
+      "abyssalbowl": 5
+    },
+    "loaded": [
+      "branching",
+      "boulder",
+      "foliose",
+      "staghorn",
+      "table",
+      "deep"
+    ]
+  },
+  "data": {
+    "frame": {
+      "fps": 0.32659459812535696,
+      "calls": 382,
+      "tris": 3757038,
+      "caveScattering": false
+    },
+    "inventory": {
+      "bySystem": {
+        "seabed": 247500,
+        "distant_seabed": 10800,
+        "sky": 2976,
+        "ocean": 45000,
+        "geology": 892984,
+        "shallow_photogrammetry_shells": 99984,
+        "portals": 2208,
+        "flora": 1635950,
+        "real_coral_scans": 314070,
+        "atmosphere": 353388,
+        "benthic_habitats": 57992,
+        "procedural_jellyfish": 44800,
+        "shallow_coastal_barramundi": 19320,
+        "large_marine_visitors": 3104,
+        "textured_reef_shoals": 17864,
+        "sea_turtle_visitors": 9096
+      },
+      "largest": [
+        {
+          "name": "fish_school",
+          "system": "atmosphere",
+          "triangles": 168960
+        },
+        {
+          "name": "coral_scan_branching_roseglass",
+          "system": "real_coral_scans",
+          "triangles": 88128
+        },
+        {
+          "name": "shell_tile_-7_4",
+          "system": "shallow_photogrammetry_shells",
+          "triangles": 87486
+        },
+        {
+          "name": "geology_reef_-1_0",
+          "system": "geology",
+          "triangles": 74448
+        },
+        {
+          "name": "coral_scan_table_roseglass",
+          "system": "real_coral_scans",
+          "triangles": 72560
+        },
+        {
+          "name": "rubble_-1_0",
+          "system": "geology",
+          "triangles": 60320
+        },
+        {
+          "name": "coral_scan_foliose_roseglass",
+          "system": "real_coral_scans",
+          "triangles": 60000
+        },
+        {
+          "name": "rubble_-1_0",
+          "system": "geology",
+          "triangles": 57840
+        },
+        {
+          "name": "rubble_-1_0",
+          "system": "geology",
+          "triangles": 57360
+        },
+        {
+          "name": "rubble_-1_0",
+          "system": "geology",
+          "triangles": 57280
+        },
+        {
+          "name": "coral_branching_violet_1_-3_1",
+          "system": "flora",
+          "triangles": 54648
+        },
+        {
+          "name": "coral_scan_staghorn_roseglass",
+          "system": "real_coral_scans",
+          "triangles": 50882
+        }
+      ],
+      "memory": {
+        "geometries": 182,
+        "textures": 78
+      }
+    },
+    "categories": {
+      "other": 70472,
+      "branching": 759567,
+      "other-coral": 735352,
+      "feature": 70559
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

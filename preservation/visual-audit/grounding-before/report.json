@@ -1,0 +1,695 @@
+{
+  "records": [
+    {
+      "i": 0,
+      "yaw": 0,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 6,
+          "y": -8.4
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 82,
+          "y": -27.4
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 95,
+          "y": -30.5
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -6.9
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        },
+        {
+          "name": "sky",
+          "parent": "",
+          "dist": 15984,
+          "y": 1097.8
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 3,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 71,
+          "y": -45
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 97,
+          "y": -59.5
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "yaw": 0.7853981633974483,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -7.1
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 6,
+          "y": -8.4
+        },
+        {
+          "name": "geology_reef_-1_1",
+          "parent": "geology",
+          "dist": 29,
+          "y": -14.2
+        },
+        {
+          "name": "geology_reef_-1_1",
+          "parent": "geology",
+          "dist": 41,
+          "y": -17.1
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -7
+        },
+        {
+          "name": "marine_snow",
+          "parent": "atmosphere",
+          "dist": 13,
+          "y": -6.1
+        },
+        {
+          "name": "geology_reef_-1_1",
+          "parent": "geology",
+          "dist": 27,
+          "y": -5.1
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 2,
+          "y": -8.3
+        },
+        {
+          "name": "marine_snow",
+          "parent": "atmosphere",
+          "dist": 24,
+          "y": -19.9
+        },
+        {
+          "name": "marine_snow",
+          "parent": "atmosphere",
+          "dist": 71,
+          "y": -45.1
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "yaw": 1.5707963267948966,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 5,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 74,
+          "y": -25.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 119,
+          "y": -36.5
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        },
+        {
+          "name": "sky",
+          "parent": "",
+          "dist": 15984,
+          "y": 1097.8
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.1
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 2,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 70,
+          "y": -44.6
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 98,
+          "y": -59.9
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "yaw": 2.356194490192345,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 5,
+          "y": -8.3
+        },
+        {
+          "name": "rubble_-1_1",
+          "parent": "geology",
+          "dist": 6,
+          "y": -8.4
+        },
+        {
+          "name": "distant_seabed",
+          "parent": "",
+          "dist": 4667,
+          "y": -1161.6
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -6.9
+        },
+        {
+          "name": "marine_snow",
+          "parent": "atmosphere",
+          "dist": 5,
+          "y": -6.6
+        },
+        {
+          "name": "geology_limestone_-1_1",
+          "parent": "geology",
+          "dist": 12,
+          "y": -6.2
+        },
+        {
+          "name": "geology_limestone_-1_1",
+          "parent": "geology",
+          "dist": 21,
+          "y": -5.5
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 2,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 15,
+          "y": -15.1
+        },
+        {
+          "name": "sky",
+          "parent": "",
+          "dist": 15988,
+          "y": -8623.3
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "yaw": 3.141592653589793,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 5,
+          "y": -8.2
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 6,
+          "y": -8.6
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 9,
+          "y": -9.1
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -6.9
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        },
+        {
+          "name": "geology_limestone_0_1",
+          "parent": "geology",
+          "dist": 195,
+          "y": 6.5
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 2,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 5,
+          "y": -9.5
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 33,
+          "y": -24.8
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "yaw": 3.9269908169872414,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -7.2
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 4,
+          "y": -7.9
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 5,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 24,
+          "y": -13
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -6.9
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 5,
+          "y": -6.7
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 11,
+          "y": -6.2
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 2,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 3,
+          "y": -8.7
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 52,
+          "y": -34.9
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "yaw": 4.71238898038469,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -7.2
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 4,
+          "y": -8.1
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 5,
+          "y": -8.3
+        },
+        {
+          "name": "sky",
+          "parent": "",
+          "dist": 15981,
+          "y": -3960.7
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -6.9
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 5,
+          "y": -6.6
+        },
+        {
+          "name": "geology_limestone_0_1",
+          "parent": "geology",
+          "dist": 86,
+          "y": -1.1
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.2
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 2,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 5,
+          "y": -9.5
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 48,
+          "y": -33.1
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "yaw": 5.497787143782138,
+      "cam": [
+        -23,
+        -7,
+        718
+      ],
+      "pick0": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 5,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 153,
+          "y": -44.8
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 159,
+          "y": -46.4
+        }
+      ],
+      "pickTop": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7
+        },
+        {
+          "name": "Mesh",
+          "parent": "ocean",
+          "dist": 101,
+          "y": 0
+        },
+        {
+          "name": "sky",
+          "parent": "",
+          "dist": 15984,
+          "y": 1097.8
+        }
+      ],
+      "pickBottom": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -7.1
+        },
+        {
+          "name": "seabed_2_5",
+          "parent": "seabed",
+          "dist": 2,
+          "y": -8.3
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 101,
+          "y": -61.4
+        },
+        {
+          "name": "Mesh",
+          "parent": "light_shafts",
+          "dist": 129,
+          "y": -76.3
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

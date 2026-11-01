@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import * as THREE from '../vendor/three.module.js';
+import {createMeshContactGuard} from '../src/player/mesh-contact.js';
+import {SwimController} from '../src/player/controller.js';
+const guard=createMeshContactGuard(new THREE.BoxGeometry(4,4,4));
+const outside=new THREE.Vector3(8,0,0), before=outside.clone();
+assert.equal(guard.resolve(outside,1),false,'empty water must not be pushed');assert(outside.equals(before));
+const near=new THREE.Vector3(2.5,0,0);assert(guard.resolve(near,1));assert(Math.abs(near.x-3)<.001,'surface push is only the swimmer clearance');
+const interior=new THREE.Vector3(1,0,0);assert(guard.resolve(interior,1));assert(interior.x>2.99,'inside point must be moved outside the real box');
+const body=new SwimController({heightAt:()=>-100});body.radius=1;
+const fake={type:'cyl',x:0,z:0,r:10,yBase:-4,yTop:4,source:'oversized-test'};
+Object.defineProperty(fake,'meshGuard',{value:guard,enumerable:false});body.colliders.push(fake);
+let p=new THREE.Vector3(8,0,0);body.resolveColliders(p);assert.equal(p.x,8,'analytic collider may not block empty water');
+p.set(2.5,0,0);body.resolveColliders(p);assert(Math.abs(p.x-3)<.001,'do not push to broad-phase radius');
+console.log('PASS: triangle narrow-phase permits empty water and blocks actual wall surface, including inside recovery.');

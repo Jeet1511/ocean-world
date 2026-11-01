@@ -1,0 +1,33 @@
+## tests/apron-regression.mjs
+PASS: outer apron retains 10800 triangles and has no wholly interior triangles; edge seams still require visual QA.
+## tests/authored-wall-fit-regression.mjs
+PASS: 24 wall and 12 arch broad-phase colliders use actual triangles; Verdant wall samples: 32 clear, 40 contacts.
+## tests/barramundi-asset-regression.mjs
+PASS: textured barramundi GLB: six-joint skin, animation, weighted vertices, three embedded maps. Visual quality and habitat are not proven by this test.
+## tests/boulder-fit-regression.mjs
+PASS: fitted boulder cores are nonzero and inside sampled actual triangles (outer ledges remain approximate).
+## tests/cave-skylight-regression.mjs
+PASS: real Nave skylight, surrounding roof, open swept passage, and seven collision-resolved arrival poses.
+LIMIT: local vertical and single-pose samples do not prove a continuous route or all cave collisions.
+## tests/cave-spire-sweep-regression.mjs
+PASS: swept cave-spire contact from both sides, open space and sampled real spires in both chambers.
+LIMIT: discrete radius-spaced samples; other geology still uses endpoint checks.
+## tests/cavern-contact-regression.mjs
+PASS: swept lateral roof contact blocks the actual surface, while open water remains clear.
+## tests/collision-inventory.mjs
+Active colliders 618 {"cyl":306,"cap":12,"ell":300} roofs 2 triggers 7
+Missing provenance 0 AABB overhang candidates >2m 6 exact duplicate bounds 0
+Terrain bilinear-vs-rendered mismatch {"gridSamples":12769,"meanDifference":0.047,"maxDifference":3.824,"worstPosition":[302,-610]}
+Wrote docs/collision_inventory.json
+## tests/collision-trace-regression.mjs
+PASS: opt-in contact trace identifies solids/terrain and does not alter physics
+## tests/connected-ecology-regression.mjs
+PASS: predator response, 2 sampled nearby shark patrols, remote fish advance at reduced frequency (near 32, far 16).
+LIMIT: this is avoidance, not actual predation, feeding, reproduction or a validated food web.
+## tests/deep-marine-regression.mjs
+PASS: 176 deep coral/sponge placements, six deterministic marine visitor routes, rigged local assets and on-screen attribution.
+NOTE: route samples and approximate collider bounds are not complete continuous-geometry certification.
+## tests/exploration-pass-regression.mjs
+PASS: targeted terrain seams, seven depth-bounded gates, 302 bommies, seven entrance-school anchors and visible roof collision.
+## tests/flora-culling-regression.mjs
+PASS: 1078 flora tiles retained; 179 within high-quality range at start; visibility and quality budgets restore.

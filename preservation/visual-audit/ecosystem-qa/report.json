@@ -1,0 +1,1033 @@
+{
+  "eco": {
+    "reports": {
+      "glasshorizon": {
+        "minimum": 380,
+        "maximum": 480,
+        "density": 0.78,
+        "baseline": 334,
+        "added": 81,
+        "groups": 3,
+        "missingAssets": [],
+        "unplaced": [
+          "pelagic visitor"
+        ],
+        "total": 415,
+        "meetsMinimum": true
+      },
+      "roseglass": {
+        "minimum": 455,
+        "maximum": 560,
+        "density": 1,
+        "baseline": 402,
+        "added": 84,
+        "groups": 11,
+        "missingAssets": [],
+        "unplaced": [],
+        "total": 486,
+        "meetsMinimum": true
+      },
+      "verdant": {
+        "minimum": 405,
+        "maximum": 500,
+        "density": 0.88,
+        "baseline": 356,
+        "added": 69,
+        "groups": 7,
+        "missingAssets": [],
+        "unplaced": [],
+        "total": 425,
+        "meetsMinimum": true
+      },
+      "aurel": {
+        "minimum": 260,
+        "maximum": 330,
+        "density": 0.65,
+        "baseline": 216,
+        "added": 57,
+        "groups": 3,
+        "missingAssets": [],
+        "unplaced": [],
+        "total": 273,
+        "meetsMinimum": true
+      },
+      "azurespan": {
+        "minimum": 250,
+        "maximum": 330,
+        "density": 0.72,
+        "baseline": 196,
+        "added": 72,
+        "groups": 4,
+        "missingAssets": [],
+        "unplaced": [],
+        "total": 268,
+        "meetsMinimum": true
+      },
+      "floodednave": {
+        "minimum": 220,
+        "maximum": 290,
+        "density": 0.6,
+        "baseline": 176,
+        "added": 54,
+        "groups": 4,
+        "missingAssets": [],
+        "unplaced": [],
+        "total": 230,
+        "meetsMinimum": true
+      },
+      "abyssalbowl": {
+        "minimum": 195,
+        "maximum": 250,
+        "density": 0.42,
+        "baseline": 156,
+        "added": 50,
+        "groups": 4,
+        "missingAssets": [],
+        "unplaced": [],
+        "total": 206,
+        "meetsMinimum": true
+      }
+    },
+    "benthic": {
+      "anemones": 22,
+      "seaStars": {
+        "glasshorizon": 18,
+        "roseglass": 18,
+        "verdant": 18
+      }
+    },
+    "groups": 70,
+    "fish": 2303,
+    "detail": [
+      {
+        "habitat": "glasshorizon",
+        "role": "existing school",
+        "species": null,
+        "count": 90,
+        "visible": true,
+        "behavior": "resting",
+        "centre": [
+          -11.512306958149516,
+          -6.231920786074629,
+          538.3071803124575
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "existing school",
+        "species": null,
+        "count": 90,
+        "visible": true,
+        "behavior": "cruising",
+        "centre": [
+          -67.99160212201369,
+          -4.339205676738355,
+          644.603160249887
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "existing school",
+        "species": null,
+        "count": 90,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          31.263757251977943,
+          -15.685598145453216,
+          444.6111928096518
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "existing school",
+        "species": "palette_surgeonfish",
+        "count": 110,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -509.2578009295594,
+          -11.945955286328449,
+          381.797647638126
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "existing school",
+        "species": null,
+        "count": 110,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -618.7037392160291,
+          -11.724013530540127,
+          335.71652729754936
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "existing school",
+        "species": "palette_surgeonfish",
+        "count": 110,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          -497.6107959912138,
+          -11.440809969681647,
+          174.3971892631705
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "existing school",
+        "species": null,
+        "count": 100,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          501.4445802109874,
+          -15.042157322397895,
+          199.61376736994376
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "existing school",
+        "species": null,
+        "count": 100,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          409.56316561721076,
+          -20.732440524744195,
+          319.96221664160896
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "existing school",
+        "species": null,
+        "count": 100,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          541.2889669856048,
+          -16.778556789391516,
+          160.5694883111433
+        ]
+      },
+      {
+        "habitat": "aurel",
+        "role": "existing school",
+        "species": null,
+        "count": 80,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          85.06596910587292,
+          -73.79485162958929,
+          31.199147292480433
+        ]
+      },
+      {
+        "habitat": "aurel",
+        "role": "existing school",
+        "species": null,
+        "count": 80,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -128.75069691966002,
+          -76.17430538426605,
+          -88.44521599195325
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "existing school",
+        "species": null,
+        "count": 70,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -565.274558275123,
+          -182.00543411524828,
+          -400.4028121115455
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "existing school",
+        "species": null,
+        "count": 70,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -593.1550537428798,
+          -163.16393198797712,
+          -435.309186958303
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "existing school",
+        "species": null,
+        "count": 60,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          433.04841683025177,
+          -51.019395862911495,
+          -311.79486011778124
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "existing school",
+        "species": null,
+        "count": 60,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          442.8475977779168,
+          -54.68652912915594,
+          -408.138804307213
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "existing school",
+        "species": null,
+        "count": 50,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          -80.87706792557525,
+          -548.3393320140033,
+          -658.8361519806289
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "existing school",
+        "species": null,
+        "count": 50,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -133.649013895937,
+          -654.6871881035385,
+          -812.5710114648964
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": true,
+        "behavior": "cruising",
+        "centre": [
+          0.7164421942055164,
+          -11.925083368622879,
+          503.2578194884884
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": true,
+        "behavior": "cruising",
+        "centre": [
+          8,
+          -4.2461610031127925,
+          696
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "existing school",
+        "species": "palette_surgeonfish",
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -521.8161941480273,
+          -11.499636930807968,
+          416.7302507442551
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "existing school",
+        "species": "palette_surgeonfish",
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -499.23847294592287,
+          -13.136648259019132,
+          327.53105509025806
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          510.5868481100606,
+          -14.520702639388844,
+          163.63573327048834
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          496.688138807499,
+          -15.708071977952947,
+          254.59218372741248
+        ]
+      },
+      {
+        "habitat": "aurel",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          116.87341148048122,
+          -72.03218377733026,
+          52.53336885282738
+        ]
+      },
+      {
+        "habitat": "aurel",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          33.15202494260376,
+          -75.37665366608125,
+          7.217854553910833
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          -589.5580867919064,
+          -163.2728612951078,
+          -438.43635313489176
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -520.8352250751286,
+          -183.74763750896244,
+          -348.0922427709247
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          396.3346032229861,
+          -94.53857502360184,
+          -306.3088879695691
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          485.58715009582147,
+          -69.72258347271936,
+          -328.6747744199723
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          -120.93902916004015,
+          -548.4700430023718,
+          -657.5211378939248
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "existing school",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -21.698708817792546,
+          -538.3758489851785,
+          -669.8808028719116
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "existing school",
+        "species": "palette_surgeonfish",
+        "count": 8,
+        "visible": false,
+        "behavior": "alert",
+        "centre": [
+          -561.9354204951637,
+          -15.981173804589568,
+          252.98449596318753
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "existing school",
+        "species": "palette_surgeonfish",
+        "count": 8,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -495.1773987452251,
+          -13.114234971365534,
+          342.43969986702604
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "existing school",
+        "species": "bluefin_tuna",
+        "count": 8,
+        "visible": false,
+        "behavior": "alert",
+        "centre": [
+          145.71765204317626,
+          -19.670853153987967,
+          468.574683606192
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "coastal shoal",
+        "species": null,
+        "count": 40,
+        "visible": true,
+        "behavior": "cruising",
+        "centre": [
+          -15.705622384333285,
+          -10.040521659512084,
+          515.1198020516755
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "coastal shoal",
+        "species": null,
+        "count": 40,
+        "visible": true,
+        "behavior": "resting",
+        "centre": [
+          -28.00046022786225,
+          -6.5305977033042995,
+          558.5136906196277
+        ]
+      },
+      {
+        "habitat": "glasshorizon",
+        "role": "open-water visitor",
+        "species": "ocean_sunfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          44.975585337430005,
+          -27.316579857781015,
+          441.40132293653875
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "reef shoal",
+        "species": null,
+        "count": 36,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -531.2567926191391,
+          -13.095636030060392,
+          432.33788738667556
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "reef shoal",
+        "species": null,
+        "count": 36,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -473.11422805336304,
+          -15.650424880278138,
+          360.4615278682772
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "anemone resident",
+        "species": "clownfish",
+        "count": 2,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          -508.3039864710422,
+          -21.767152661478153,
+          349.5289366956222
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "anemone resident",
+        "species": "clownfish",
+        "count": 2,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -479.4893695012035,
+          -21.439711587442883,
+          381.29492615674206
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "anemone resident",
+        "species": "clownfish",
+        "count": 2,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          -478.63129258508496,
+          -20.681432254203308,
+          423.95416831826924
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "reef predator",
+        "species": "lionfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -488.80791457904576,
+          -23.40993983500415,
+          350.6006397462025
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "reef predator",
+        "species": "lionfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          -458.5016300990641,
+          -26.20687105814227,
+          359.6268382765802
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "reef-floor browser",
+        "species": "mandarinfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -455.1645048284716,
+          -25.59219632467303,
+          367.6172601254113
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "reef-floor browser",
+        "species": "mandarinfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          -515.6918827219795,
+          -21.820306258318062,
+          334.7979829805053
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "sheltered seahorse",
+        "species": "seahorse",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -496.647335248766,
+          -23.016231467978418,
+          344.9142872831926
+        ]
+      },
+      {
+        "habitat": "roseglass",
+        "role": "sheltered seahorse",
+        "species": "seahorse",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -469.5987080999512,
+          -26.698792472972,
+          346.56678129597435
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "kelp shoal",
+        "species": null,
+        "count": 32,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          497.3300534277631,
+          -17.012020045108883,
+          193.45402243803537
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "kelp shoal",
+        "species": null,
+        "count": 32,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          480.3022099997916,
+          -17.03462153810672,
+          214.65540991235966
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "kelp understory",
+        "species": "seahorse",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          512.2009441889683,
+          -27.435647228357123,
+          186.35569631441362
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "kelp understory",
+        "species": "seahorse",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          516.8391900262596,
+          -30.96338294494902,
+          225.750445245624
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "kelp understory",
+        "species": "seahorse",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          458.69009713615577,
+          -26.91963758284786,
+          221.29612925486705
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "sandy-bottom fish",
+        "species": "flounder",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          522.1064103535952,
+          -28.161326532646143,
+          181.05709153727423
+        ]
+      },
+      {
+        "habitat": "verdant",
+        "role": "sandy-bottom fish",
+        "species": "flounder",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          474.52010662846567,
+          -26.732677265354344,
+          220.57770565671575
+        ]
+      },
+      {
+        "habitat": "aurel",
+        "role": "column shoal",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          132.4150860107246,
+          -81.12508036862164,
+          75.54995888187595
+        ]
+      },
+      {
+        "habitat": "aurel",
+        "role": "column shoal",
+        "species": null,
+        "count": 28,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          86.18069529198723,
+          -83.55076218242534,
+          -0.9069181802992734
+        ]
+      },
+      {
+        "habitat": "aurel",
+        "role": "open-water visitor",
+        "species": "ocean_sunfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          125.14608294509671,
+          -79.77783430701045,
+          117.09648598754416
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "canyon pelagic shoal",
+        "species": null,
+        "count": 35,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -572.6134659035721,
+          -180.18212613550725,
+          -449.2652809057947
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "canyon pelagic shoal",
+        "species": null,
+        "count": 35,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -370.0858320884472,
+          -233.9584027870331,
+          -480.7730684287152
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "pelagic visitor",
+        "species": "swordfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -563.485986199454,
+          -191.43142293887067,
+          -479.70910195844385
+        ]
+      },
+      {
+        "habitat": "azurespan",
+        "role": "open-water visitor",
+        "species": "ocean_sunfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          -559.5016606069277,
+          -204.2612469528498,
+          -473.17970637967335
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "cavern-mouth shoal",
+        "species": null,
+        "count": 26,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          400.37565467006397,
+          -82.23715455415731,
+          -312.83180274789015
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "cavern-mouth shoal",
+        "species": null,
+        "count": 26,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          483.64651511719967,
+          -52.14590930004627,
+          -287.6323725362009
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "sheltered rocky-reef predator",
+        "species": "lionfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          393.34684305118407,
+          -108.45959937944276,
+          -312.84765011812044
+        ]
+      },
+      {
+        "habitat": "floodednave",
+        "role": "sheltered rocky-reef predator",
+        "species": "lionfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "resting",
+        "centre": [
+          465.522202726095,
+          -81.01143376185891,
+          -310.4224123414004
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "twilight shoal",
+        "species": null,
+        "count": 24,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -114.027829184734,
+          -559.9641423599741,
+          -646.9254160523902
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "twilight shoal",
+        "species": null,
+        "count": 24,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          -51.938189530869366,
+          -557.8963001213658,
+          -630.0506790754597
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "solitary twilight predator",
+        "species": "anglerfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "cruising",
+        "centre": [
+          -103.74636084754627,
+          -574.282763547119,
+          -649.4688833919178
+        ]
+      },
+      {
+        "habitat": "abyssalbowl",
+        "role": "solitary twilight predator",
+        "species": "anglerfish",
+        "count": 1,
+        "visible": false,
+        "behavior": "foraging",
+        "centre": [
+          -34.95255444565649,
+          -571.9160528773666,
+          -631.9999354790631
+        ]
+      }
+    ]
+  },
+  "low": {
+    "frame": {
+      "fps": 0.207086500031067,
+      "calls": 376,
+      "tris": 5363726
+    },
+    "position": [
+      -504.3749831702682,
+      -11.047073718407628,
+      418.9783965645469
+    ]
+  },
+  "high": {
+    "fps": 0.05302733028602955,
+    "calls": 503,
+    "tris": 12690539
+  },
+  "errors": [],
+  "warnings": []
+}

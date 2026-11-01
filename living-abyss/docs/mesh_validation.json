@@ -1,0 +1,115 @@
+{
+  "generated": "2026-10-30T15:55:34.554Z",
+  "note": "Solid geology generators welded at 1 mm and checked for holes, fins and flipped normals.",
+  "results": [
+    {
+      "name": "tower_0",
+      "triangles": 3808,
+      "vertices": 2032,
+      "weldedVertices": 1906,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 0,
+      "surfaceAreaM2": 30796,
+      "watertight": true
+    },
+    {
+      "name": "tower_1",
+      "triangles": 3808,
+      "vertices": 2032,
+      "weldedVertices": 1906,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 0,
+      "surfaceAreaM2": 52051,
+      "watertight": true
+    },
+    {
+      "name": "tower_2",
+      "triangles": 3808,
+      "vertices": 2032,
+      "weldedVertices": 1906,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 0,
+      "surfaceAreaM2": 76678,
+      "watertight": true
+    },
+    {
+      "name": "shelf_0",
+      "triangles": 6624,
+      "vertices": 3430,
+      "weldedVertices": 3266,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 96,
+      "surfaceAreaM2": 78063,
+      "watertight": true
+    },
+    {
+      "name": "shelf_1",
+      "triangles": 6624,
+      "vertices": 3430,
+      "weldedVertices": 3266,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 96,
+      "surfaceAreaM2": 77952,
+      "watertight": true
+    },
+    {
+      "name": "arch_0",
+      "triangles": 5044,
+      "vertices": 2675,
+      "weldedVertices": 2524,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 0,
+      "surfaceAreaM2": 456345,
+      "watertight": true
+    },
+    {
+      "name": "wall_0",
+      "triangles": 700,
+      "vertices": 407,
+      "weldedVertices": 352,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 0,
+      "surfaceAreaM2": 105591,
+      "watertight": true
+    },
+    {
+      "name": "boulder_0",
+      "triangles": 320,
+      "vertices": 960,
+      "weldedVertices": 162,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 0,
+      "surfaceAreaM2": 7,
+      "watertight": true
+    },
+    {
+      "name": "boulder_1",
+      "triangles": 320,
+      "vertices": 960,
+      "weldedVertices": 162,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "flippedFaces": 0,
+      "degenerate": 0,
+      "surfaceAreaM2": 7,
+      "watertight": true
+    }
+  ],
+  "failures": []
+}

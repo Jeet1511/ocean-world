@@ -1,0 +1,133 @@
+## tests/apron-regression.mjs
+PASS: outer apron retains 10800 triangles and has no wholly interior triangles; edge seams still require visual QA.
+## tests/authored-wall-fit-regression.mjs
+PASS: 24 wall and 12 arch broad-phase colliders use actual triangles; Verdant wall samples: 32 clear, 40 contacts.
+## tests/barramundi-asset-regression.mjs
+PASS: textured barramundi GLB: six-joint skin, animation, weighted vertices, three embedded maps. Visual quality and habitat are not proven by this test.
+## tests/boulder-fit-regression.mjs
+PASS: fitted boulder cores are nonzero and inside sampled actual triangles (outer ledges remain approximate).
+## tests/cave-skylight-regression.mjs
+PASS: real Nave skylight, surrounding roof, open swept passage, and seven collision-resolved arrival poses.
+LIMIT: local vertical and single-pose samples do not prove a continuous route or all cave collisions.
+## tests/cave-spire-sweep-regression.mjs
+PASS: swept cave-spire contact from both sides, open space and sampled real spires in both chambers.
+LIMIT: discrete radius-spaced samples; other geology still uses endpoint checks.
+## tests/cavern-contact-regression.mjs
+PASS: swept lateral roof contact blocks the actual surface, while open water remains clear.
+## tests/collision-inventory.mjs
+Active colliders 618 {"cyl":306,"cap":12,"ell":300} roofs 2 triggers 7
+Missing provenance 0 AABB overhang candidates >2m 6 exact duplicate bounds 0
+Terrain bilinear-vs-rendered mismatch {"gridSamples":12769,"meanDifference":0.047,"maxDifference":3.824,"worstPosition":[302,-610]}
+Wrote docs/collision_inventory.json
+## tests/collision-trace-regression.mjs
+PASS: opt-in contact trace identifies solids/terrain and does not alter physics
+## tests/connected-ecology-regression.mjs
+PASS: predator response, 2 sampled nearby shark patrols, remote fish advance at reduced frequency (near 32, far 16).
+LIMIT: this is avoidance, not actual predation, feeding, reproduction or a validated food web.
+## tests/deep-marine-regression.mjs
+PASS: 176 deep coral/sponge placements, six deterministic marine visitor routes, rigged local assets and on-screen attribution.
+NOTE: route samples and approximate collider bounds are not complete continuous-geometry certification.
+## tests/exploration-pass-regression.mjs
+PASS: targeted terrain seams, seven depth-bounded gates, 302 bommies, seven entrance-school anchors and visible roof collision.
+## tests/flora-culling-regression.mjs
+PASS: 1078 flora tiles retained; 179 within high-quality range at start; visibility and quality budgets restore.
+## tests/frame-pacer-regression.mjs
+PASS: low mode targets a 30 FPS ceiling, medium/high target 60 FPS, quality changes and long stalls recover.
+LIMIT: frame cap cannot guarantee device temperature or sustainable FPS.
+## tests/gate-approach-audit.mjs
+glasshorizon reachable approaches 4 /4 [[1,0],[-1,0],[0,1],[0,-1]]
+roseglass reachable approaches 4 /4 [[1,0],[-1,0],[0,1],[0,-1]]
+verdant reachable approaches 4 /4 [[1,0],[-1,0],[0,1],[0,-1]]
+aurel reachable approaches 4 /4 [[1,0],[-1,0],[0,1],[0,-1]]
+azurespan reachable approaches 4 /4 [[1,0],[-1,0],[0,1],[0,-1]]
+floodednave reachable approaches 4 /4 [[1,0],[-1,0],[0,1],[0,-1]]
+abyssalbowl reachable approaches 4 /4 [[1,0],[-1,0],[0,1],[0,-1]]
+## tests/geology-culling-regression.mjs
+PASS: 29 bounded geology tiles, 10264 rock/rubble instances, original hero triangle totals and current collision registrations.
+## tests/geology-merge-regression.mjs
+geology_limestone_0_0 vertices 54860 unreferenced 0 triangles 32892
+geology_limestone_-1_1 vertices 11148 unreferenced 0 triangles 6840
+geology_limestone_-1_0 vertices 73242 unreferenced 0 triangles 39280
+geology_limestone_-1_-1 vertices 51943 unreferenced 0 triangles 31768
+geology_limestone_0_-1 vertices 37284 unreferenced 0 triangles 16468
+geology_limestone_0_1 vertices 11072 unreferenced 0 triangles 4508
+geology_limestone_-1_-2 vertices 9377 unreferenced 0 triangles 4196
+geology_limestone_-2_0 vertices 7320 unreferenced 0 triangles 2440
+geology_limestone_1_0 vertices 4500 unreferenced 0 triangles 1500
+geology_limestone_1_-1 vertices 1500 unreferenced 0 triangles 500
+geology_limestone_0_-2 vertices 10800 unreferenced 0 triangles 3600
+geology_reef_-1_0 vertices 118339 unreferenced 0 triangles 74448
+geology_reef_-2_0 vertices 7064 unreferenced 0 triangles 8616
+geology_reef_0_0 vertices 59027 unreferenced 0 triangles 20240
+geology_reef_-1_1 vertices 9660 unreferenced 0 triangles 3220
+geology_reef_0_1 vertices 6000 unreferenced 0 triangles 2000
+geology_reef_1_0 vertices 2160 unreferenced 0 triangles 720
+geology_reef_-1_-1 vertices 58680 unreferenced 0 triangles 19560
+geology_reef_0_-1 vertices 38940 unreferenced 0 triangles 12980
+geology_reef_-2_-1 vertices 1500 unreferenced 0 triangles 500
+geology_reef_-1_-2 vertices 6480 unreferenced 0 triangles 2160
+geology_reef_0_-2 vertices 8640 unreferenced 0 triangles 2880
+geology_sandstone_-1_-1 vertices 407 unreferenced 0 triangles 700
+geology_sandstone_0_-2 vertices 632 unreferenced 0 triangles 1120
+geology_basalt_-1_-2 vertices 6096 unreferenced 0 triangles 11424
+geology_basalt_0_-2 vertices 9526 unreferenced 0 triangles 18048
+geology_basalt_0_-1 vertices 2032 unreferenced 0 triangles 3808
+geology_basalt_-1_-1 vertices 2032 unreferenced 0 triangles 3808
+geology_mineral_0_-1 vertices 10160 unreferenced 0 triangles 19040
+PASS: non-indexed boulder vertices are included in visible merged triangles; geometry exists at the reported area.
+## tests/grounding-ecology-pass.mjs
+PASS: two reported tower bases grounded, sampled vault shell contacts from both sides, cave spires registered, 288 grounded filter feeders, four planned reef shoals.
+LIMIT: these are targeted vertex and contact samples, not certification of every formation or swimming route.
+## tests/habitat-pass-regression.mjs
+PASS: seven blended habitats, continuity, 684 / 9900 neighbour checks, bounded rock-core approach.
+## tests/instance-frustum-regression.mjs
+PASS: reversible instance compaction, view changes, 29938 sway-inclusive plant bounds and 45 dynamically bounded schools.
+LIMIT: mathematical bounds and sampled views do not replace full traversal or target-hardware profiling.
+## tests/marine-life-regression.mjs
+PASS: all 17 existing fish school centres lie below the surface and above their local seabed.
+NOTE: this does not certify every animated fish avoids terrain, rocks or cave roofs.
+## tests/mesh-contact-regression.mjs
+PASS: triangle narrow-phase permits empty water and blocks actual wall surface, including inside recovery.
+## tests/navigation-regression.mjs
+PASS: terrain slide avoids rejected floor; visible roof blocks ascent; open water remains clear.
+PASS: map boundary no longer clamps 60 m inside the authored edge.
+PASS: collision height matches rendered terrain triangles.
+PASS: angled swimming glides along gentle seabed while a sheer cliff remains solid.
+## tests/performance-equivalence-regression.mjs
+PASS: exact pre-optimization terrain/AO and 45 sampled fish trajectories; 50,000 conservative obstacle checks.
+LIMIT: sampled trajectory equivalence is not full physics or device-performance certification.
+## tests/portal-geometry-surface-regression.mjs
+glasshorizon: visual bounds clear; 4/4 local collision-enabled approaches
+roseglass: visual bounds clear; 4/4 local collision-enabled approaches
+verdant: visual bounds clear; 4/4 local collision-enabled approaches
+aurel: visual bounds clear; 4/4 local collision-enabled approaches
+azurespan: visual bounds clear; 4/4 local collision-enabled approaches
+floodednave: visual bounds clear; 4/4 local collision-enabled approaches
+abyssalbowl: visual bounds clear; 4/4 local collision-enabled approaches
+PASS: 12 sampled visible Glass Horizon boulder surfaces produce triangle contact; not a full-world proof.
+## tests/reef-scans-lod-regression.mjs
+PASS: 123 grounded, habitat-limited scan placements; six optimized mapped GLBs; 314 flora tiles swap and restore genuine lower-poly LOD.
+LIMIT: centreline and sampled terrain checks do not prove continuous navigation or whole-colony contact.
+## tests/reference-habitat-regression.mjs
+PASS: 30 garden patches, 407 grounded habitat placements in seven places; whale sampled-route clearance and attribution.
+LIMIT: sampled floor/rock bounds are not complete continuous animal, plant-footprint or camera collision proof.
+## tests/reported-wall-regression.mjs
+PASS: reported-area downward-angled swim covered 45.83 m; terrain remains solid.
+## tests/retryable-asset-regression.mjs
+PASS: asset attempts are shared, successful detail is cached, temporary failures back off and both automatic/explicit retries recover.
+## tests/school-simulation-regression.mjs
+INFO: 0 of 1420 fish within 0.5m of or inside a collision core at the final sample; avoidance is approximate.
+PASS: 17 schools, 1420 fish, 10 simulated seconds above terrain/below surface; player avoidance responds.
+INFO: 0 initial fish could not find a point outside analytic rock cores; these are NOT verified clear of geometry or cavern roofs.
+## tests/shader-crack-equivalence.mjs
+PASS: 50,000 exact crack masks, including 912 crack hits; bounded search hashes 2.21 cells on average instead of 27.
+LIMIT: equivalent values/operation counts do not establish GPU frame-time gains.
+## tests/species-school-regression.mjs
+PASS: two shallow surgeonfish groups, one open-water tuna group, sampled placement clearance and optimized texture assets.
+LIMIT: simplified static AI-assisted models, shader tail motion and sampled routes are not scientific or continuous-collision validation.
+## tests/terrain-roughness-regression.mjs
+PASS: global terrain-grid max adjacent height difference 35.28 m, none above 40 m; all seven centre depths preserved within bands.
+LIMIT: 35 m in one 4 m cell remains extremely steep; this is not a natural-geology or continuous-navigation certificate.
+## tests/turtle-regression.mjs
+PASS: two configurable shallow turtle patrols, sampled rock/floor clearance, weighted five-joint glTF, material maps and flipper animation.
+LIMIT: route clearance is sampled, the weight/animation are approximate and neither validates real turtle biomechanics.

@@ -1,0 +1,128 @@
+{
+  "generated": "2026-10-31T15:58:58.989Z",
+  "build_seconds": 2.018,
+  "field": {
+    "vx": 451,
+    "vz": 451,
+    "cell": 4,
+    "minY": -693.8616943359375,
+    "maxY": -3.823869228363037
+  },
+  "locations": [
+    {
+      "id": "glasshorizon",
+      "name": "The Glass Horizon",
+      "region": "shelf",
+      "x": 0,
+      "z": 620,
+      "y": -8.4,
+      "band": [
+        -6,
+        -16
+      ],
+      "ok": true
+    },
+    {
+      "id": "roseglass",
+      "name": "Roseglass Reef",
+      "region": "reef",
+      "x": -520,
+      "z": 300,
+      "y": -24.3,
+      "band": [
+        -18,
+        -34
+      ],
+      "ok": true
+    },
+    {
+      "id": "verdant",
+      "name": "Verdant Cathedral",
+      "region": "kelp",
+      "x": 520,
+      "z": 280,
+      "y": -29.9,
+      "band": [
+        -22,
+        -46
+      ],
+      "ok": true
+    },
+    {
+      "id": "aurel",
+      "name": "The Pillars of Aurel",
+      "region": "cathedral",
+      "x": 0,
+      "z": 20,
+      "y": -111.9,
+      "band": [
+        -95,
+        -150
+      ],
+      "ok": true
+    },
+    {
+      "id": "azurespan",
+      "name": "The Azure Span",
+      "region": "archways",
+      "x": -480,
+      "z": -340,
+      "y": -212.8,
+      "band": [
+        -170,
+        -260
+      ],
+      "ok": true
+    },
+    {
+      "id": "floodednave",
+      "name": "The Flooded Nave",
+      "region": "caverns",
+      "x": 500,
+      "z": -360,
+      "y": -79.4,
+      "band": [
+        -50,
+        -130
+      ],
+      "ok": true
+    },
+    {
+      "id": "abyssalbowl",
+      "name": "The Abyssal Bowl",
+      "region": "abyss",
+      "x": 0,
+      "z": -700,
+      "y": -562.2,
+      "band": [
+        -520,
+        -640
+      ],
+      "ok": true
+    }
+  ],
+  "pads": [
+    "glasshorizon",
+    "roseglass",
+    "verdant",
+    "aurel",
+    "azurespan",
+    "floodednave",
+    "abyssalbowl",
+    "link_ne",
+    "link_nw",
+    "link_c",
+    "link_sw",
+    "link_se",
+    "trench_mouth",
+    "deepest",
+    "gate_glasshorizon",
+    "gate_roseglass",
+    "gate_verdant",
+    "gate_aurel",
+    "gate_azurespan",
+    "gate_floodednave",
+    "gate_abyssalbowl"
+  ],
+  "failures": 0
+}

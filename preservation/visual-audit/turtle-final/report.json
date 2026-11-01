@@ -1,0 +1,155 @@
+{
+  "turtles": [
+    {
+      "habitat": "glasshorizon",
+      "position": [
+        -34.42565955265594,
+        -6.706577994359778,
+        531.1421917707208
+      ],
+      "centre": [
+        -27.119619838179386,
+        -7,
+        527.8830839648189
+      ],
+      "radius": 8,
+      "time": 0,
+      "visible": false,
+      "avoidance": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "habitat": "roseglass",
+      "position": [
+        -472.104066720561,
+        -13.72507900672778,
+        395.3248035369806
+      ],
+      "centre": [
+        -465.98775621220415,
+        -14,
+        388.7224747231935
+      ],
+      "radius": 9,
+      "time": 0.88,
+      "visible": true,
+      "avoidance": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "initial": {
+    "turtle": {
+      "habitat": "roseglass",
+      "position": [
+        -472.104066720561,
+        -13.72507900672778,
+        395.3248035369806
+      ],
+      "centre": [
+        -465.98775621220415,
+        -14,
+        388.7224747231935
+      ],
+      "radius": 9,
+      "time": 0.88,
+      "visible": true,
+      "avoidance": [
+        0,
+        0,
+        0
+      ]
+    },
+    "camera": [
+      -469.604066720561,
+      -12.62507900672778,
+      398.8248035369806
+    ],
+    "frame": {
+      "fps": 0.2188183807439825,
+      "calls": 382,
+      "tris": 3757038,
+      "caveScattering": false
+    },
+    "inventory": {
+      "seabed": 270000,
+      "distant_seabed": 10800,
+      "sky": 2976,
+      "ocean": 45000,
+      "geology": 929884,
+      "shallow_photogrammetry_shells": 87486,
+      "caverns": 5196,
+      "portals": 2208,
+      "flora": 1604371,
+      "real_coral_scans": 314070,
+      "atmosphere": 353360,
+      "benthic_habitats": 57992,
+      "procedural_jellyfish": 44800,
+      "shallow_coastal_barramundi": 19320,
+      "large_marine_visitors": 3104,
+      "textured_reef_shoals": 17864,
+      "sea_turtle_visitors": 9096
+    }
+  },
+  "up": {
+    "joint": 1,
+    "vertex": [
+      -471.64725381538204,
+      -13.954793371934894,
+      394.3468369218895
+    ],
+    "mesh": "game_body",
+    "bones": [
+      "body",
+      "front_L",
+      "front_R",
+      "rear_L",
+      "rear_R"
+    ]
+  },
+  "down": {
+    "joint": 1,
+    "vertex": [
+      -471.90875308221376,
+      -14.2781676623507,
+      394.63497729949955
+    ],
+    "mesh": "game_body",
+    "bones": [
+      "body",
+      "front_L",
+      "front_R",
+      "rear_L",
+      "rear_R"
+    ]
+  },
+  "delta": 0.505942363777443,
+  "response": {
+    "habitat": "roseglass",
+    "position": [
+      -472.2805019948855,
+      -13.72491586453086,
+      395.30716192533623
+    ],
+    "centre": [
+      -465.98775621220415,
+      -14,
+      388.7224747231935
+    ],
+    "radius": 9,
+    "time": 0.5092999999998138,
+    "visible": true,
+    "avoidance": [
+      -0.15883875757580385,
+      0.0000031744312508323595,
+      -0.0012967492012545886
+    ]
+  },
+  "errors": [],
+  "warnings": []
+}

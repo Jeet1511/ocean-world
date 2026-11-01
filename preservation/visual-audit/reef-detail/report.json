@@ -1,0 +1,133 @@
+{
+  "scans": {
+    "counts": {
+      "glasshorizon": 16,
+      "roseglass": 67,
+      "abyssalbowl": 5
+    },
+    "loaded": [
+      "branching",
+      "boulder",
+      "foliose",
+      "staghorn",
+      "table",
+      "deep"
+    ]
+  },
+  "data": {
+    "frame": {
+      "fps": 0.22696323195642307,
+      "calls": 378,
+      "tris": 5433267,
+      "caveScattering": false
+    },
+    "inventory": {
+      "bySystem": {
+        "seabed": 247500,
+        "distant_seabed": 10800,
+        "sky": 2976,
+        "ocean": 45000,
+        "geology": 892444,
+        "shallow_photogrammetry_shells": 99984,
+        "portals": 2208,
+        "flora": 3362895,
+        "real_coral_scans": 272990,
+        "atmosphere": 353388,
+        "benthic_habitats": 57992,
+        "procedural_jellyfish": 44800,
+        "shallow_coastal_barramundi": 19320,
+        "large_marine_visitors": 3104,
+        "textured_reef_shoals": 17864
+      },
+      "largest": [
+        {
+          "name": "coral_branching_violet_1_-3_1",
+          "system": "flora",
+          "triangles": 177192
+        },
+        {
+          "name": "fish_school",
+          "system": "atmosphere",
+          "triangles": 168960
+        },
+        {
+          "name": "coral_branching_rose_1_-3_1",
+          "system": "flora",
+          "triangles": 143808
+        },
+        {
+          "name": "coral_branching_teal_1_-3_1",
+          "system": "flora",
+          "triangles": 138672
+        },
+        {
+          "name": "coral_branching_violet_2_-3_1",
+          "system": "flora",
+          "triangles": 130032
+        },
+        {
+          "name": "coral_branching_rose_2_-3_1",
+          "system": "flora",
+          "triangles": 103824
+        },
+        {
+          "name": "coral_branching_teal_2_-3_1",
+          "system": "flora",
+          "triangles": 101808
+        },
+        {
+          "name": "coral_branching_amber_1_-3_1",
+          "system": "flora",
+          "triangles": 101436
+        },
+        {
+          "name": "coral_branching_violet_0_-3_1",
+          "system": "flora",
+          "triangles": 95900
+        },
+        {
+          "name": "coral_branching_amber_2_-3_1",
+          "system": "flora",
+          "triangles": 89712
+        },
+        {
+          "name": "shell_tile_-7_4",
+          "system": "shallow_photogrammetry_shells",
+          "triangles": 87486
+        },
+        {
+          "name": "coral_branching_rose_0_-3_1",
+          "system": "flora",
+          "triangles": 79800
+        },
+        {
+          "name": "coral_scan_branching_roseglass",
+          "system": "real_coral_scans",
+          "triangles": 77760
+        },
+        {
+          "name": "coral_branching_amber_1_-2_1",
+          "system": "flora",
+          "triangles": 77040
+        },
+        {
+          "name": "geology_reef_-1_0",
+          "system": "geology",
+          "triangles": 74448
+        }
+      ],
+      "memory": {
+        "geometries": 180,
+        "textures": 70
+      }
+    },
+    "categories": {
+      "other": 70472,
+      "branching": 2486512,
+      "other-coral": 735352,
+      "feature": 70559
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

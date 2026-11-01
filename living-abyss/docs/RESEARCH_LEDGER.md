@@ -1,0 +1,14 @@
+# Research ledger — 31 October 2026
+
+- **Ocean optics:** read the project abstract and paper sections 1–4 of Monzon et al., *Real-Time Underwater Spectral Rendering* (2024): https://graphics.unizar.es/projects/EG24Underwater/ and https://doi.org/10.1111/cgf.15009. Distinguishes per-wavelength extinction and measured diffuse downwelling Kd, froxel single scattering, and multiple-scattering approximation. The current RGB shader has wavelength-inspired channels but does not implement that paper. No measured Kd data integrated.
+- **Ocean zones:** NOAA notes euphotic roughly upper 200 m, dysphotic 200–1,000 m, abyssopelagic around 4,000–6,000 m: https://oceanservice.noaa.gov/facts/light_travel.html. Existing place names/depths are preserved; not relabelled as scientific classification.
+- **Kelp:** NOAA describes cool nutrient-rich water, rocky holdfasts, flexible stipes, blades and distinct canopy/midwater/benthic habitat: https://sanctuaries.noaa.gov/visit/ecosystems/kelpdesc.html. Existing flora needs an art/habitat audit.
+- **Light-producing organisms:** Smithsonian explains blue-green light is common, and bioluminescence serves multiple functions: https://ocean.si.edu/ocean-life/fish/bioluminescence. Avoid treating all abyssal life as continuously glowing decoration.
+- **Schooling:** Reynolds describes local separation, alignment, cohesion and the O(n²) naive cost: https://www.red3d.com/cwr/boids/ and https://www.red3d.com/cwr/papers/1987/boids.html. Implemented bounded local steering using per-school O(n²) loops; no angular perception or predictive obstacles.
+- **Three.js:** https://threejs.org/manual/pages/optimize-lots-of-objects.html explains draw-call tradeoffs; https://threejs.org/manual/pages/how-to-dispose-of-objects.html explains separate disposal for geometries, materials and textures. This pass retained instancing; no streaming/disposal system claimed.
+- **glTF/PBR:** https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html and https://www.khronos.org/gltf/pbr define runtime meshes, material properties, skins and animation. Existing local glTF loader used for shells; no new skinned animals.
+- **KTX:** https://www.khronos.org/ktx/ describes GPU-transcoded KTX2/Basis texture delivery; not integrated.
+- **World partition:** https://dev.epicgames.com/documentation/en-us/unreal-engine/world-partition-in-unreal-engine describes distance-based grid streaming. It is a comparison only, not a Three.js feature added here.
+- **Blender:** official docs https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/ and https://docs.blender.org/api/current/ were consulted. Blender executable absent; simulated package install would add 185 system packages. No Blender production or exports claimed.
+
+Coverage is partial: the user's complete research library and asset inventory have not all been studied. No external research FPS is presented as this game's performance.

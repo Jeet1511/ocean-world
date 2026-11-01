@@ -1,0 +1,16 @@
+Blender 4.3.2
+Read blend: "/tmp/turtle-original-wror2nue/turtle.blend"
+Warning: region type 4 missing in space type "Info" (id: 7) - removing region
+Fra:1 Mem:73.37M (Peak 74.22M) | Time:498182:46:55.42 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | body
+Fra:1 Mem:73.38M (Peak 74.22M) | Time:498182:46:55.42 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | l_eyelid_upper
+Fra:1 Mem:77.34M (Peak 77.34M) | Time:498182:46:55.43 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | l_eyeball
+Fra:1 Mem:78.23M (Peak 78.23M) | Time:498182:46:55.43 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | r_eyelid_lower
+Fra:1 Mem:78.25M (Peak 78.25M) | Time:498182:46:55.43 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | r_eyeball
+Fra:1 Mem:78.28M (Peak 78.28M) | Time:498182:46:55.43 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | r_eyelid_upper
+Fra:1 Mem:78.30M (Peak 78.30M) | Time:498182:46:55.43 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | l_eyelid_lower
+Fra:1 Mem:84.08M (Peak 86.63M) | Time:498182:46:55.44 | Mem:0.00M, Peak:0.00M | Scene | Initializing
+Fra:1 Mem:84.07M (Peak 86.63M) | Time:498182:46:55.44 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading Independent turtle tangent normal
+Info: Baking map saved to internal image, save it externally or pack it
+Independently baked from original asset: /home/user/living-abyss/assets/source/ocean-turtle/normal.png
+
+Blender quit

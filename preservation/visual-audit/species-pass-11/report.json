@@ -1,0 +1,54 @@
+{
+  "fish": [
+    {
+      "species": "palette_surgeonfish",
+      "visual": "textured_palette_surgeonfish",
+      "count": 8,
+      "center": [
+        -561.9354204951637,
+        -15.981173804589568,
+        252.98449596318753
+      ],
+      "time": 0,
+      "first": [
+        -568.1220187960976,
+        -13.360365680047332,
+        260.42432102117095
+      ]
+    },
+    {
+      "species": "palette_surgeonfish",
+      "visual": "textured_palette_surgeonfish",
+      "count": 8,
+      "center": [
+        -495.1773987452251,
+        -13.114234971365534,
+        342.43969986702604
+      ],
+      "time": 0,
+      "first": [
+        -491.75514799754444,
+        -12.60828744109591,
+        345.0965802457492
+      ]
+    },
+    {
+      "species": "bluefin_tuna",
+      "visual": "textured_bluefin_tuna",
+      "count": 8,
+      "center": [
+        145.71765204317626,
+        -19.670853153987967,
+        468.574683606192
+      ],
+      "time": 0,
+      "first": [
+        144.03061076052245,
+        -19.979270861669622,
+        468.2553067799057
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

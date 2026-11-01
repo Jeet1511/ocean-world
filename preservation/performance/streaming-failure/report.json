@@ -1,0 +1,94 @@
+{
+  "first": {
+    "ok": false,
+    "toast": "Some habitat detail could not load yet",
+    "scans": {
+      "counts": {
+        "glasshorizon": 17,
+        "roseglass": 77
+      },
+      "planned": {
+        "roseglass": 81,
+        "glasshorizon": 17,
+        "abyssalbowl": 25
+      },
+      "loaded": [
+        "branching",
+        "boulder",
+        "foliose",
+        "staghorn"
+      ]
+    },
+    "position": [
+      -476.61335730520716,
+      -18.494134139234607,
+      415.3325593042762
+    ]
+  },
+  "retry": {
+    "ok": true,
+    "scans": {
+      "counts": {
+        "glasshorizon": 17,
+        "roseglass": 81
+      },
+      "planned": {
+        "roseglass": 81,
+        "glasshorizon": 17,
+        "abyssalbowl": 25
+      },
+      "loaded": [
+        "branching",
+        "boulder",
+        "foliose",
+        "staghorn",
+        "table"
+      ]
+    }
+  },
+  "whaleFirst": false,
+  "whaleRetry": {
+    "ok": true,
+    "whale": true
+  },
+  "timeout": {
+    "ok": false,
+    "elapsed": 15003.799999999814,
+    "toast": "Some habitat detail could not load yet",
+    "position": [
+      -120.31299360829375,
+      -580.7402963163634,
+      -638.7645236075471
+    ]
+  },
+  "deep": {
+    "counts": {
+      "glasshorizon": 17,
+      "roseglass": 81,
+      "abyssalbowl": 25
+    },
+    "planned": {
+      "roseglass": 81,
+      "glasshorizon": 17,
+      "abyssalbowl": 25
+    },
+    "loaded": [
+      "branching",
+      "boulder",
+      "foliose",
+      "staghorn",
+      "table",
+      "deep"
+    ]
+  },
+  "table": 2,
+  "whale": 2,
+  "errors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "warnings": [
+    "Coral scan unavailable: table TypeError: Failed to fetch\n    at FileLoader.load (http://127.0.0.1:8000/vendor/three.module.js:44426:3)\n    at GLTFLoader.load (http://127.0.0.1:8000/vendor/jsm/loaders/GLTFLoader.js:241:10)\n    at http://127.0.0.1:8000/vendor/three.module.js:44295:10\n    at new Promise (<anonymous>)\n    at GLTFLoader.loadAsync (http://127.0.0.1:8000/vendor/three.module.js:44293:10)\n    at http://127.0.0.1:8000/src/world/reef-scans.js?rev=09:82:29\n    at async Promise.all (index 0)\n    at async preloadHabitat (http://127.0.0.1:8000/src/main.js?rev=09:204:14)\n    at async arriveAtPortal (http://127.0.0.1:8000/src/main.js?rev=09:453:15)\n    at async eval (eval at evaluate (:234:30), <anonymous>:1:35)",
+    "Blue whale unavailable: TypeError: Failed to fetch\n    at FileLoader.load (http://127.0.0.1:8000/vendor/three.module.js:44426:3)\n    at GLTFLoader.load (http://127.0.0.1:8000/vendor/jsm/loaders/GLTFLoader.js:241:10)\n    at http://127.0.0.1:8000/vendor/three.module.js:44295:10\n    at new Promise (<anonymous>)\n    at GLTFLoader.loadAsync (http://127.0.0.1:8000/vendor/three.module.js:44293:10)\n    at addBlueWhale (http://127.0.0.1:8000/src/world/whale.js?rev=09:12:37)\n    at http://127.0.0.1:8000/src/main.js?rev=09:191:19\n    at async Promise.all (index 1)\n    at async preloadHabitat (http://127.0.0.1:8000/src/main.js?rev=09:204:14)\n    at async <anonymous>:260:30"
+  ]
+}

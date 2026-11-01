@@ -1,0 +1,201 @@
+{
+  "entry": {
+    "portal": {
+      "id": "azurespan",
+      "name": "The Azure Span",
+      "x": -357.5963278347517,
+      "y": -216.02233616698317,
+      "z": -253.29739888294915,
+      "radius": 8
+    },
+    "position": [
+      -382.07706226780135,
+      -214.02233616698317,
+      -270.63791910635933
+    ],
+    "forward": [
+      {
+        "name": "seabed_1_2",
+        "parent": "seabed",
+        "dist": 15,
+        "y": -214.3
+      },
+      {
+        "name": "seabed_1_1",
+        "parent": "seabed",
+        "dist": 103,
+        "y": -216.1
+      },
+      {
+        "name": "geology_limestone_-1_-1",
+        "parent": "geology",
+        "dist": 154,
+        "y": -217.1
+      },
+      {
+        "name": "geology_sandstone_-1_-1",
+        "parent": "geology",
+        "dist": 205,
+        "y": -218.1
+      }
+    ],
+    "geology": [
+      {
+        "p0": [
+          -485.52786426451155,
+          -148.22649604479471,
+          -342.73860098269984
+        ],
+        "span": 237.69728648009428,
+        "crown": -148.22649604479471,
+        "thickness": 26
+      }
+    ],
+    "frame": {
+      "fps": 0.555462978392835,
+      "calls": 108,
+      "tris": 498301,
+      "caveScattering": false
+    }
+  },
+  "shots": [
+    {
+      "name": "west",
+      "position": [
+        -385.5963278347517,
+        -213.02233616698317,
+        -253.29739888294915
+      ],
+      "pick": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -213
+        },
+        {
+          "name": "portal_membrane",
+          "parent": "portal_azurespan",
+          "dist": 28,
+          "y": -216
+        },
+        {
+          "name": "seabed_1_2",
+          "parent": "seabed",
+          "dist": 71,
+          "y": -220.6
+        },
+        {
+          "name": "distant_seabed",
+          "parent": "",
+          "dist": 1711,
+          "y": -395.3
+        }
+      ]
+    },
+    {
+      "name": "east",
+      "position": [
+        -329.5963278347517,
+        -213.02233616698317,
+        -253.29739888294915
+      ],
+      "pick": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -213.1
+        },
+        {
+          "name": "portal_membrane",
+          "parent": "portal_azurespan",
+          "dist": 28,
+          "y": -216
+        },
+        {
+          "name": "geology_reef_-1_-1",
+          "parent": "geology",
+          "dist": 112,
+          "y": -225
+        },
+        {
+          "name": "seabed_1_2",
+          "parent": "seabed",
+          "dist": 127,
+          "y": -226.6
+        }
+      ]
+    },
+    {
+      "name": "north",
+      "position": [
+        -357.5963278347517,
+        -213.02233616698317,
+        -281.29739888294915
+      ],
+      "pick": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 0,
+          "y": -213
+        },
+        {
+          "name": "portal_membrane",
+          "parent": "portal_azurespan",
+          "dist": 28,
+          "y": -216
+        },
+        {
+          "name": "portal_motes",
+          "parent": "portal_azurespan",
+          "dist": 31,
+          "y": -216.3
+        },
+        {
+          "name": "seabed_1_2",
+          "parent": "seabed",
+          "dist": 74,
+          "y": -221
+        }
+      ]
+    },
+    {
+      "name": "south",
+      "position": [
+        -357.5963278347517,
+        -213.02233616698317,
+        -225.29739888294915
+      ],
+      "pick": [
+        {
+          "name": "dolphin",
+          "parent": "",
+          "dist": 1,
+          "y": -213.1
+        },
+        {
+          "name": "portal_motes",
+          "parent": "portal_azurespan",
+          "dist": 25,
+          "y": -215.7
+        },
+        {
+          "name": "portal_membrane",
+          "parent": "portal_azurespan",
+          "dist": 28,
+          "y": -216
+        },
+        {
+          "name": "seabed_1_2",
+          "parent": "seabed",
+          "dist": 66,
+          "y": -220
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

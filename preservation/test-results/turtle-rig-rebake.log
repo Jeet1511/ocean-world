@@ -1,0 +1,18 @@
+Info: Packed 3 file(s)
+Info: Saved "ocean_turtle_swim.blend"
+ERROR Draco mesh compression is not available because library could not be found at /usr/bin/4.3/python/lib/python3.13/site-packages/libextern_draco.so
+14:47:08 | INFO: Starting glTF 2.0 export
+14:47:08 | INFO: Extracting primitive: SHILDKR_TE.001
+14:47:08 | INFO: Primitives created: 1
+14:47:08 | INFO: Extracting primitive: augen oberlied_rechts.001
+14:47:08 | INFO: Primitives created: 1
+14:47:08 | INFO: Extracting primitive: augen auge_rechts.001
+14:47:08 | INFO: Primitives created: 1
+14:47:08 | INFO: Finished glTF 2.0 export in 0.1183171272277832 s
+
+Saved turtle. Weighted vertices by flipper: {'front_L': 252, 'front_R': 254, 'rear_L': 261, 'rear_R': 262}
+Blender 4.3.2
+Read blend: "/tmp/reef-turtle-d_bc5obz/turtle.blend"
+Warning: region type 4 missing in space type "Info" (id: 7) - removing region
+
+Blender quit

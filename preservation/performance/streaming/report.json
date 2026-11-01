@@ -1,0 +1,166 @@
+{
+  "boot": {
+    "quality": "low",
+    "scans": {
+      "counts": {
+        "glasshorizon": 17,
+        "roseglass": 77
+      },
+      "planned": {
+        "roseglass": 81,
+        "glasshorizon": 17,
+        "abyssalbowl": 25
+      },
+      "loaded": [
+        "branching",
+        "boulder",
+        "foliose",
+        "staghorn"
+      ]
+    },
+    "assets": [
+      "http://127.0.0.1:8000/src/main.js?rev=09",
+      "http://127.0.0.1:8000/__dev_version",
+      "http://127.0.0.1:8000/vendor/three.module.js",
+      "http://127.0.0.1:8000/vendor/jsm/postprocessing/EffectComposer.js",
+      "http://127.0.0.1:8000/vendor/jsm/postprocessing/RenderPass.js",
+      "http://127.0.0.1:8000/vendor/jsm/postprocessing/UnrealBloomPass.js",
+      "http://127.0.0.1:8000/vendor/jsm/postprocessing/ShaderPass.js",
+      "http://127.0.0.1:8000/vendor/jsm/postprocessing/OutputPass.js",
+      "http://127.0.0.1:8000/src/world/geography.js?rev=09",
+      "http://127.0.0.1:8000/src/world/terrain.js?rev=09",
+      "http://127.0.0.1:8000/src/world/ocean.js?rev=09",
+      "http://127.0.0.1:8000/src/world/geology.js?rev=09",
+      "http://127.0.0.1:8000/src/world/flora.js?rev=09",
+      "http://127.0.0.1:8000/src/world/reef-scans.js?rev=09",
+      "http://127.0.0.1:8000/src/world/caverns.js?rev=09",
+      "http://127.0.0.1:8000/src/world/atmosphere.js?rev=09",
+      "http://127.0.0.1:8000/src/world/portals.js?rev=09",
+      "http://127.0.0.1:8000/src/world/arrival-plan.js?rev=09",
+      "http://127.0.0.1:8000/src/world/shells.js?rev=09",
+      "http://127.0.0.1:8000/src/world/jellies.js?rev=09",
+      "http://127.0.0.1:8000/src/world/benthic.js?rev=09",
+      "http://127.0.0.1:8000/src/world/barramundi.js?rev=09",
+      "http://127.0.0.1:8000/src/world/large-marine.js?rev=09",
+      "http://127.0.0.1:8000/src/world/reef-shoals.js?rev=09",
+      "http://127.0.0.1:8000/src/world/whale.js?rev=09",
+      "http://127.0.0.1:8000/src/world/whale-route.js?rev=09",
+      "http://127.0.0.1:8000/src/world/turtles.js?rev=09",
+      "http://127.0.0.1:8000/vendor/jsm/loaders/GLTFLoader.js",
+      "http://127.0.0.1:8000/src/player/controller.js?rev=09",
+      "http://127.0.0.1:8000/src/player/collision-debug.js?rev=09",
+      "http://127.0.0.1:8000/src/player/dolphin.js?rev=09",
+      "http://127.0.0.1:8000/src/ui/hud.js?rev=09",
+      "http://127.0.0.1:8000/src/shaders/common.js?rev=09",
+      "http://127.0.0.1:8000/src/world/habitat-profiles.js?rev=09",
+      "http://127.0.0.1:8000/src/core/frame-pacer.js?rev=09",
+      "http://127.0.0.1:8000/src/rendering/cave-scattering.js?rev=09",
+      "http://127.0.0.1:8000/vendor/jsm/shaders/CopyShader.js",
+      "http://127.0.0.1:8000/vendor/jsm/postprocessing/MaskPass.js",
+      "http://127.0.0.1:8000/vendor/jsm/postprocessing/Pass.js",
+      "http://127.0.0.1:8000/vendor/jsm/shaders/LuminosityHighPassShader.js",
+      "http://127.0.0.1:8000/vendor/jsm/shaders/OutputShader.js",
+      "http://127.0.0.1:8000/src/core/noise.js?rev=09",
+      "http://127.0.0.1:8000/src/shaders/sky.js?rev=09",
+      "http://127.0.0.1:8000/src/world/rockmat.js?rev=09",
+      "http://127.0.0.1:8000/src/player/mesh-contact.js?rev=09",
+      "http://127.0.0.1:8000/src/rendering/instance-frustum.js?rev=09",
+      "http://127.0.0.1:8000/src/world/feature-garden-plan.js?rev=09",
+      "http://127.0.0.1:8000/src/world/reef-scan-plan.js?rev=09",
+      "http://127.0.0.1:8000/src/world/school-simulation.js?rev=09",
+      "http://127.0.0.1:8000/src/world/species-school-plan.js?rev=09",
+      "http://127.0.0.1:8000/src/world/ecosystem-plan.js?rev=09",
+      "http://127.0.0.1:8000/vendor/jsm/utils/SkeletonUtils.js",
+      "http://127.0.0.1:8000/src/world/marine-patrols.js?rev=09",
+      "http://127.0.0.1:8000/src/world/reef-shoal-plan.js?rev=09",
+      "http://127.0.0.1:8000/src/world/turtle-patrol-plan.js?rev=09",
+      "http://127.0.0.1:8000/vendor/jsm/utils/BufferGeometryUtils.js",
+      "http://127.0.0.1:8000/assets/textures/sand_02/diff.jpg",
+      "http://127.0.0.1:8000/assets/textures/sand_02/nor_gl.jpg",
+      "http://127.0.0.1:8000/assets/textures/sand_02/rough.jpg",
+      "http://127.0.0.1:8000/assets/textures/coral_ground_02/diff.jpg",
+      "http://127.0.0.1:8000/assets/textures/coral_ground_02/nor_gl.jpg",
+      "http://127.0.0.1:8000/assets/textures/coral_ground_02/rough.jpg",
+      "http://127.0.0.1:8000/assets/textures/rock022/Rock022_1K-JPG_Color.jpg",
+      "http://127.0.0.1:8000/assets/textures/rock022/Rock022_1K-JPG_NormalGL.jpg",
+      "http://127.0.0.1:8000/assets/textures/rock022/Rock022_1K-JPG_Roughness.jpg",
+      "http://127.0.0.1:8000/assets/models/lambis_shell/lambis_shell_1k.gltf",
+      "http://127.0.0.1:8000/assets/models/barramundi_school/school.glb?rev=09",
+      "http://127.0.0.1:8000/assets/models/marine_pass11/blue-tang.glb",
+      "http://127.0.0.1:8000/assets/models/marine_pass11/tuna.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/01_clownfish.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/03_lionfish.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/04_anglerfish.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/13_swordfish.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/20_seahorse.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/21_ocean_sunfish.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/22_flounder.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/23_mandarinfish.glb",
+      "http://127.0.0.1:8000/__dev_version",
+      "http://127.0.0.1:8000/assets/models/lambis_shell/lambis_shell.bin",
+      "http://127.0.0.1:8000/assets/models/lambis_shell/textures/lambis_shell_diff_1k.jpg",
+      "http://127.0.0.1:8000/assets/models/lambis_shell/textures/lambis_shell_arm_1k.jpg",
+      "http://127.0.0.1:8000/assets/models/lambis_shell/textures/lambis_shell_nor_gl_1k.jpg",
+      "http://127.0.0.1:8000/__dev_version",
+      "http://127.0.0.1:8000/assets/models/coral_scans/branching.glb",
+      "http://127.0.0.1:8000/assets/models/coral_scans/boulder.glb",
+      "http://127.0.0.1:8000/assets/models/coral_scans/foliose.glb",
+      "http://127.0.0.1:8000/assets/models/coral_scans/staghorn.glb",
+      "http://127.0.0.1:8000/assets/models/ecosystem/sea-star.glb",
+      "http://127.0.0.1:8000/assets/models/barramundi/barramundi_swim.glb",
+      "http://127.0.0.1:8000/assets/models/large_marine/manta.glb",
+      "http://127.0.0.1:8000/assets/models/large_marine/shark.glb",
+      "http://127.0.0.1:8000/assets/models/marine_pass10/tropical-shoal.glb",
+      "http://127.0.0.1:8000/assets/models/sea_turtle/ocean-turtle.glb",
+      "http://127.0.0.1:8000/__dev_version"
+    ]
+  },
+  "rose": {
+    "position": [
+      -476.61335730520716,
+      -18.494134139234607,
+      415.3325593042762
+    ],
+    "quality": "low",
+    "scans": {
+      "counts": {
+        "glasshorizon": 17,
+        "roseglass": 81
+      },
+      "planned": {
+        "roseglass": 81,
+        "glasshorizon": 17,
+        "abyssalbowl": 25
+      },
+      "loaded": [
+        "branching",
+        "boulder",
+        "foliose",
+        "staghorn",
+        "table"
+      ]
+    }
+  },
+  "deep": {
+    "counts": {
+      "glasshorizon": 17,
+      "roseglass": 81,
+      "abyssalbowl": 25
+    },
+    "planned": {
+      "roseglass": 81,
+      "glasshorizon": 17,
+      "abyssalbowl": 25
+    },
+    "loaded": [
+      "branching",
+      "boulder",
+      "foliose",
+      "staghorn",
+      "table",
+      "deep"
+    ]
+  },
+  "errors": [],
+  "warnings": []
+}

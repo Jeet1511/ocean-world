@@ -1,0 +1,110 @@
+{
+  "data": [
+    {
+      "id": "glasshorizon",
+      "frame": {
+        "fps": 1.5600624024960998,
+        "calls": 268,
+        "tris": 4216020
+      },
+      "quality": "low",
+      "position": [
+        -16.74517375730838,
+        -13.86039994476494,
+        501.17408045448354
+      ],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    {
+      "id": "roseglass",
+      "frame": {
+        "fps": 1.070663811563169,
+        "calls": 465,
+        "tris": 7002052
+      },
+      "quality": "low",
+      "position": [
+        -504.3749831702682,
+        -11.047073718407628,
+        418.9783965645469
+      ],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    {
+      "id": "verdant",
+      "frame": {
+        "fps": 4.665146174579687,
+        "calls": 338,
+        "tris": 4887673
+      },
+      "quality": "low",
+      "position": [
+        493.01029848870894,
+        -14.946311944127157,
+        163.0745707199182
+      ],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    {
+      "id": "aurel",
+      "frame": {
+        "fps": 6.447453255964325,
+        "calls": 310,
+        "tris": 2442001
+      },
+      "quality": "low",
+      "position": [
+        124.9220525331001,
+        -95.50305489117856,
+        36.44630021972651
+      ],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    {
+      "id": "azurespan",
+      "frame": {
+        "fps": 9.49868073878628,
+        "calls": 425,
+        "tris": 3029091
+      },
+      "quality": "low",
+      "position": [
+        -610.5639169762649,
+        -167.55015438326888,
+        -432.4827745248542
+      ],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    {
+      "id": "floodednave",
+      "frame": {
+        "fps": 8.435654700531312,
+        "calls": 151,
+        "tris": 1643751
+      },
+      "quality": "low",
+      "position": [
+        402.6158790258207,
+        -83.77394282270991,
+        -289.8834328985909
+      ],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    {
+      "id": "abyssalbowl",
+      "frame": {
+        "fps": 14.069094888224761,
+        "calls": 170,
+        "tris": 1645006
+      },
+      "quality": "low",
+      "position": [
+        -120.31299360829375,
+        -576.8494364286729,
+        -638.7645236075471
+      ],
+      "gpu": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    }
+  ],
+  "errors": []
+}
